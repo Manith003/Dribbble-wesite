@@ -166,7 +166,8 @@ html,body{
     width: 270px;
     border-radius: 30px;
     background-color: royalblue;
-   overflow: hidden;
+    overflow: hidden;
+    position: relative;
 }
 
 .elem img{
@@ -180,6 +181,43 @@ html,body{
     object-fit: cover;
     object-position: center;
 }
+.elem .text-bottom{
+    height: 40%;
+    width: 100%;
+    /* background-color: black; */
+    bottom: 0;
+    padding-top: 2%;
+    position: absolute;
+    color: white;
+}
+.text-bottom .name{
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 10%;
+    margin-left: 5%;
+}
+.text-bottom .work{
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+.text-bottom .title{
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: 4%;
+    margin-top: 6%;
+    display: flex;
+}
+.text-bottom .title h5{
+    /* background-color: red; */
+    margin-right: 5%;
+    font-weight: 500;
+    padding: 5px 12px;
+    border: 1px solid white; 
+    border-radius: 40px;   
+}
+
 
 #page2{
     height: 100%;
