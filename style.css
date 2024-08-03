@@ -162,11 +162,23 @@ html,body{
 
 .elem{
     flex-shrink: 0;
-    height: 90%;
-    width: 280px;
-    border-radius: 25px;
+    height: 86%;
+    width: 270px;
+    border-radius: 30px;
     background-color: royalblue;
-   
+   overflow: hidden;
+}
+
+.elem img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.elem video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
 }
 
 #page2{
