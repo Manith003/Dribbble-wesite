@@ -165,7 +165,7 @@ html,body{
     height: 86%;
     width: 270px;
     border-radius: 30px;
-    background-color: royalblue;
+    /* background-color: royalblue; */
     overflow: hidden;
     position: relative;
 }
@@ -222,5 +222,33 @@ html,body{
 #page2{
     height: 100%;
     width: 100%;
-    background-color: brown;
+    background-color: #F8F7F4;
 } 
+
+#page2 h1{
+    font-size: 50px;
+    text-align: center;
+    font-weight: 400;
+    padding-top: 6.5%;   
+}
+
+#page2 .box{
+    height: 230px;
+    width: 260px;;
+    /* background-color: red; */
+    display: inline-block;
+    margin-left: 5.3%;
+    margin-top: 2%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+#page2 .box img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#page2 .box video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
