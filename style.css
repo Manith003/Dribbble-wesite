@@ -238,9 +238,14 @@ html,body{
     /* background-color: red; */
     display: inline-block;
     margin-left: 5.3%;
-    margin-top: 2%;
+    margin-top: 3%;
     border-radius: 10px;
+    position: relative;
     overflow: hidden;
+    transition: all ease 0.5s;
+}
+.box:hover{
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.452);
 }
 #page2 .box img{
     height: 100%;
@@ -251,4 +256,34 @@ html,body{
     height: 100%;
     width: 100%;
     object-fit: cover;
+}
+.box-bottom{
+    height: 40%;
+    width: 100%;
+    background: linear-gradient(transparent,rgba(0, 0, 0, 0.575));
+    position: absolute;
+    bottom: -40%;
+    transition: all ease 0.5s;
+    cursor: pointer;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 18px;
+    padding-top: 20px;
+}
+
+.box-bottom h4{
+    font-size: 15px;
+    font-weight: 400;
+}
+.box-bottom i{
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 50%;
+}
+.box:hover .box-bottom{
+    bottom: 0;
+    
 }
