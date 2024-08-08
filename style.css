@@ -309,8 +309,77 @@ html,body{
        color: white;
     }
 #page3{
-    height: 80%;
+    height: 88%;
     width: 100%;
     background-color: #FFDA79;
-    margin-top: 20%;
+    margin-top: 19%;
+}
+.page3_heading{
+    height: 100%;
+    width: 100%;
+    /* background-color: green; */
+}
+.page3_heading h1{
+    font-family: 'Source sarif 4';
+    font-size: 4.7em;
+    text-align: center;
+    font-weight: 400;
+    padding-top: 6.5%;  
+    line-height: 90%; 
+}  
+
+.page3_heading h3{
+    text-align: center;
+    margin-top: 2%;
+    font-weight: 300;
+    font-size: 1.5em;
+    line-height: 160%;
+}
+
+.getstart{
+    padding: 15px 20px;
+    border-radius: 50px;
+    background-color: black;
+    border: none;
+    color: #F8F7F4;
+    cursor: pointer;
+    position: relative;
+    padding: 20px 25px;
+    top: 10%;
+    left: 38%;
+    border: 1px solid black;
+}
+.hiring{
+    padding: 15px 20px;
+    border-radius: 50px;
+    background-color: #F8F7F4;
+    border: none;
+    color: black;
+    cursor: pointer;
+    position: relative;
+    padding: 20px 25px;
+    top: 10%;
+    left: 40%;
+}
+
+.last{
+    /* background-color: red; */
+    position: relative;
+    top: 10%;
+     
+}
+.last::after{
+    content: '';
+    height: 2px;
+    width: 128px;
+    background-color: black;
+    position: absolute;
+    top: 70%;
+    left: 53.3%;
+}
+
+#page4{
+    height: 100%;
+    width: 100%;
+    background-color: green;
 }
