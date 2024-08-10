@@ -379,7 +379,7 @@ html,body{
 }
 
 #page4{
-    height: 70%;
+    height: 30%;
     width: 100%;
     /* background-color: green; */
     /* padding: 1vw; */
@@ -388,7 +388,7 @@ html,body{
 #scroll{
     height: 28vh;
     width: 100%;
-    margin-top: 3%;
+    margin-top: 1%;
     /* background-color: red; */
     /* padding: 1vw; */
     white-space: nowrap; 
@@ -400,6 +400,14 @@ html,body{
     /* display: none; */
     margin: 0 1%;
     padding: 2vw;
+    border-radius: 18%;
+    border: none;
+    transition: all ease 0.5s;
+}
+
+#scroll img:hover{
+    cursor: pointer;
+    transform: scale(1.1);
 }
 
 #footer_marquee{
@@ -421,4 +429,96 @@ html,body{
         transform: translateX(-100%);
     }
     
+}
+
+#page5{
+    height: 35%;
+    width: 100%;
+    /* background-color: red; */
+    padding: 1vw;
+}
+
+#footer{
+    height: 60%;
+    width: 100%;
+    /* background-color: blue;   */
+    position: relative;
+    display: flex;
+}
+
+#logoimg img{
+    height: 60px; 
+    /* background-color: red; */
+    position: absolute;
+    top: 32%;
+    left: 7%;
+}
+
+#centercotent{
+    height: 15%;
+    width: fit-content;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding: 0 4.5%;
+    position: absolute;
+    top: 50%;
+    left: 15%;
+
+}
+
+#centercotent h4{
+    font-weight: 500;
+    font-size: 1vw;
+}
+
+#links{
+    height: 15%;
+    width: fit-content;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    top: 50%;
+    right: 7%;
+}
+#links i{
+    font-size: 1.6vw;
+}
+
+#footer_last{
+    height: 40%;
+    width: 100%;
+    /* background-color: yellow; */
+    position: relative;
+}
+
+#last1{
+    display: flex;
+    position: absolute;
+    top: 45%;
+    left: 7%;
+    gap: 10px;
+}
+
+#last1 h4{
+    font-weight: 300;
+    font-size: 1vw;
+    color: #65656b;
+}
+
+#last2{
+    display: flex;
+    position: absolute;
+    top: 45%;
+    right: 7%;
+    gap: 10px;
+}
+
+#last2 h4{
+    font-weight: 300;
+    font-size: 1vw;
+    color: #65656b;
 }
